@@ -1,0 +1,4 @@
+XAMMP内のhtdocsにフォルダごと置いて、Apacheをstartしないと実際には見れないと思います。
+（Localhost内で実際に見る場合）
+
+あとDBファイルもMySQLにインポートしないと駄目かも...。

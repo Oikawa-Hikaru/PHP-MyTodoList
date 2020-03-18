@@ -1,0 +1,134 @@
+.screen {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.centerbox {
+    width: 100%;
+}
+
+.centerbox h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.todoform li {
+    font-size: 13px;
+    margin: 12px 0;
+}
+
+.todoform input[type="text"] {
+    width: 100%;
+    font-size: 13px;
+    border:1px solid rgba(100, 100, 100, 0.800);
+}
+
+.todoform textarea {
+    width: 100%;
+    height: 100px;
+    font-size: 13px;
+    border:1px solid rgba(100, 100, 100, 0.800);
+}
+
+.button {
+    margin: 5px 0;
+    text-align: right;
+}
+
+.button input[type="submit"] {
+    font-size: 13px;
+    padding: 2px 12px;
+    border:1px solid rgba(100, 100, 100, 0.800);
+}
+
+.centerbox h2 {
+    font-size: 13px;
+    margin: 30px 0;
+    text-align: right;
+}
+
+.entries {
+    width: 100%;
+    margin: 15px 0;
+    background-color: rgba(100, 100, 100, 0.267);
+    border:1px solid rgba(100, 100, 100, 0.267);
+}
+
+.entry {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.entname {
+    width: 90%;
+    padding: 2px 0;
+}
+
+.entbtn {
+    width: 10%;
+    padding: 2px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peke {
+    width: 8px;
+    height: 8px;
+}
+
+.entname p {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.maintext {
+    font-size: 13px;
+    padding: 20px 20px;
+    background-color: white;
+}
+
+.remarks {
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.reaction {
+    width: 50%;
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.timestamp {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.reaction input[type="image"] {
+    width: 16px;
+    height: 14px;
+}
+
+.timestamp p {
+    font-size: 11px;
+    text-align: right;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
